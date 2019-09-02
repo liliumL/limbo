@@ -1,0 +1,8 @@
+com\example\lilium\service\UserService.class
+com\example\lilium\LiliumApplication.class
+com\example\lilium\service\impl\UserServiceImpl.class
+com\example\lilium\SwaggerConfig.class
+com\example\lilium\controller\UserController.class
+com\example\lilium\filter\CorsFilter.class
+com\example\lilium\model\User.class
+com\example\lilium\mapper\UserMapper.class
