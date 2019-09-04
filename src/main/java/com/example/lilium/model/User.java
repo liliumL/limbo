@@ -1,22 +1,18 @@
 package com.example.lilium.model;
 
-/*
- * @author Lijunbiao
- * @create 2019/7/31 031 20:53
- */
-
 public class User {
-
     private String name;
+
     private String sex;
-    private String age;
+
+    private Integer age;
 
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name = name == null ? null : name.trim();
     }
 
     public String getSex() {
@@ -24,14 +20,14 @@ public class User {
     }
 
     public void setSex(String sex) {
-        this.sex = sex;
+        this.sex = sex == null ? null : sex.trim();
     }
 
-    public String getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 }
